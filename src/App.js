@@ -4,7 +4,8 @@ import Contact from './contact/Contact';
 import Footer from './footer/Footer';
 import Landing from './landing/Landing';
 import Projects from './projects/Projects';
-import NavBar from './navbar/NavBar';
+import Map from './map/Map';
+
 import './App.css';
 
 class App extends Component {
@@ -12,13 +13,13 @@ class App extends Component {
     return (
       <>
         <header>
-          <NavBar />
           <Landing />
         </header>
         <main>
           <About />
           <Projects />
           <Contact />
+          <Map />
         </main>
         <Footer />
       </>
