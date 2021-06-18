@@ -1,20 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap');
 
-/* #landing {
-  background: url(../images/seashell.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: 100% 100%;
-} */
-
 #name {
-  padding: 20%;
+  padding: 40% 20% 40% 20%;
 }
 
 #name > h1 {
   font-family: 'Playfair Display', serif;
+  font-size: 3rem;
 }
 
 #fade-in-h1 {
