@@ -1,0 +1,9 @@
+.projects-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.projects-flex-1 {
+  flex: 1;
+  border: 1px solid #333333;
+}

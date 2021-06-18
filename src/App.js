@@ -13,9 +13,9 @@ class App extends Component {
       <>
         <header>
           <NavBar />
+          <Landing />
         </header>
         <main>
-          <Landing />
           <About />
           <Projects />
           <Contact />
