@@ -2,6 +2,7 @@
   background: rgb(250, 249, 248);
   padding: 1rem;
   border-radius: 1rem;
+  box-shadow: 5px 10px 8px #888888;
 }
 
 a {
