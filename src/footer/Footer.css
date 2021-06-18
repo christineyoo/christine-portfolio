@@ -1,9 +1,7 @@
 footer {
   padding: 2rem;
   text-align: center;
-  background-image: url('../images/seashell.jpg');
-  background-size: cover;
-  background-position: 100% 80%;
+  background-color: #faf6f0;
 }
 
 footer p {

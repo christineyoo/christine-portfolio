@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap');
 
-#landing {
+/* #landing {
   background: url(../images/seashell.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: 100% 100%;
-}
+} */
 
 #name {
   padding: 20%;
@@ -18,11 +18,11 @@
 }
 
 #fade-in-h1 {
-  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 11.1 */
-  -moz-animation: fadein 1s; /* Firefox < 16 */
-  -ms-animation: fadein 1s; /* Internet Explorer */
-  -o-animation: fadein 1s; /* Opera < 12.1 */
-  animation: fadein 1s;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 33.3 */
+  -moz-animation: fadein 3s; /* Firefox < 36 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 32.3 */
+  animation: fadein 3s;
 }
 
 #fade-in-h2 {
@@ -85,6 +85,10 @@
 @media all and (min-width: 800px) {
   #landing {
     background-position: right bottom;
+  }
+
+  #name {
+    padding: 20% 10%;
   }
 
   #name > h1 {

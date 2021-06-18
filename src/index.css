@@ -3,6 +3,12 @@
 body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
+  background: url(./images/seashell.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 100% 100%;
 }
 
 code {
