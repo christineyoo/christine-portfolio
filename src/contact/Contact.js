@@ -17,12 +17,14 @@ class Contact extends Component {
           <input id='form-name' type='text' name='name' required />
           <br />
           <label for='email'>Email</label>
-          <input id='email' type='text' name='email' required />
+          <input id='form-email' type='text' name='email' required />
           <br />
           <label for='message'>Your message</label>
-          <textarea name='message' id='message' required></textarea>
+          <textarea name='form-message' id='message' required></textarea>
           <br />
-          <button type='submit'>Submit</button>
+          <button id='form-button' type='submit'>
+            Submit
+          </button>
         </form>
       </div>
     );
