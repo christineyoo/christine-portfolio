@@ -1,9 +1,44 @@
 .projects-flex {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .projects-flex-1 {
   flex: 1;
   border: 1px solid #333333;
+  padding: 1rem;
+}
+
+.projects-flex-2 {
+  flex: 2;
+  /* border: 1px solid #333333; */
+}
+
+.project-screenshot {
+  object-fit: scale-down;
+  width: 100%;
+}
+
+img {
+  opacity: 1;
+  filter: alpha(opacity=1);
+}
+
+img:hover {
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+a:hover {
+  color: red;
+}
+
+@media all and (min-width: 800px) {
+  .projects-flex {
+    flex-direction: row;
+  }
+  .project-screenshot {
+    object-fit: cover;
+    width: 100%;
+  }
 }

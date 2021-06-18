@@ -4,7 +4,7 @@ import './About.css';
 class About extends Component {
   render() {
     return (
-      <div id='about'>
+      <>
         <p>
           Hello, I'm Christine. I'm a full stack web developer located in
           Redondo Beach, CA with four years of experience teaching high school
@@ -21,7 +21,7 @@ class About extends Component {
           the beautiful South Bay area with my husband and my energetic
           Schnoodle, Fluffy.
         </p>
-      </div>
+      </>
     );
   }
 }

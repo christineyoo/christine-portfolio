@@ -1,14 +1,30 @@
 import React, { Component } from 'react';
 import './Projects.css';
+import sweetbloom from '../images/sweetbloom.png';
+import collab from '../images/collab.png';
+import lumina from '../images/lumina.png';
 
 class Projects extends Component {
   render() {
     return (
-      <div id='projects'>
+      <>
         <h1>Projects</h1>
         <div className='projects-flex'>
-          <div className='projects-flex-1'>
-            <h3>some image</h3>
+          <div className='projects-flex-2'>
+            <a
+              href={'https://sweet-bloom.vercel.app/'}
+              target={'_blank'}
+              rel={'noreferrer'}
+              className='project-screenshot-link'
+
+            >
+              <img
+                src={sweetbloom}
+                height='600px'
+                alt='sweetbloom'
+                className='project-screenshot'
+              />
+            </a>
           </div>
           <div className='projects-flex-1'>
             <h2>Sweet Bloom</h2>
@@ -34,8 +50,21 @@ class Projects extends Component {
           </div>
         </div>
         <div className='projects-flex'>
-          <div className='projects-flex-1'>
-            <h3>some image</h3>
+          <div className='projects-flex-2'>
+            <a
+              href={'https://collab-app-smoky.vercel.app/'}
+              target={'_blank'}
+              rel={'noreferrer'}
+              className='project-screenshot-link'
+
+            >
+              <img
+                src={collab}
+                height='600px'
+                alt='collab'
+                className='project-screenshot'
+              />
+            </a>
           </div>
           <div className='projects-flex-1'>
             <h2>Collab</h2>
@@ -64,8 +93,20 @@ class Projects extends Component {
           </div>
         </div>
         <div className='projects-flex'>
-          <div className='projects-flex-1'>
-            <h3>some image</h3>
+          <div className='projects-flex-2'>
+            <a
+              href={'https://christineyoo.github.io/nasa-app/'}
+              target={'_blank'}
+              rel={'noreferrer'}
+              className='project-screenshot-link'
+            >
+              <img
+                src={lumina}
+                height='600px'
+                alt='lumina'
+                className='project-screenshot'
+              />
+            </a>
           </div>
           <div className='projects-flex-1'>
             <h2>LUMINA</h2>
@@ -91,7 +132,7 @@ class Projects extends Component {
             </a>
           </div>
         </div>
-      </div>
+      </>
     );
   }
 }
