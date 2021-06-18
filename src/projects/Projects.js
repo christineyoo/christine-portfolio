@@ -8,7 +8,7 @@ class Projects extends Component {
   render() {
     return (
       <div id='projects'>
-        <h1>Projects</h1>
+        <h1>projects</h1>
         <div className='projects-flex'>
           <div className='projects-flex-2'>
             <a

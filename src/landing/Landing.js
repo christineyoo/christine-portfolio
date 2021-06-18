@@ -6,8 +6,8 @@ class Landing extends Component {
     return (
       <div id='landing'>
         <div id='name'>
-          <h1>christine yoo</h1>
-          <h2>full stack developer</h2>
+          <h1 id='fade-in-h1'>christine yoo</h1>
+          <h2 id='fade-in-h2'>full stack developer</h2>
         </div>
       </div>
     );

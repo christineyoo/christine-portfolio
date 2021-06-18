@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap');
+#contact h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+}
 
 #contact {
   background: rgb(250, 249, 248);
   padding: 1rem;
   border-radius: 1rem;
+  margin-bottom: 10%;
 }
 
 #contact > h2 {
@@ -33,12 +39,22 @@ form textarea {
   font-family: 'Raleway', sans-serif;
 }
 
-form button {
+button {
   border: 1px solid #000;
   border-radius: 1rem;
   font-size: 1rem;
   padding: 1rem;
   background-color: transparent;
+}
+
+#scroll-to-top {
+  margin: 0 auto;
+  display: block;
+}
+
+#scroll-to-top:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
 }
 
 #form-button:hover {
