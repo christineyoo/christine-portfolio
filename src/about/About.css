@@ -1,0 +1,16 @@
+#about {
+  background: rgb(250, 249, 248);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+@media all and (min-width: 800px) {
+  #about {
+    margin-bottom: 5rem;
+    padding: 3rem;
+  }
+
+  #about > p {
+    font-size: 1.25rem;
+  }
+}

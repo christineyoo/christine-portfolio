@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap');
+
 #landing {
   background: url(../images/seashell.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -11,8 +13,20 @@
   padding: 20%;
 }
 
-@media all and (min-width:800px) {
+#name > h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+@media all and (min-width: 800px) {
   #landing {
     background-position: right bottom;
+  }
+
+  #name > h1 {
+    font-size: 4rem;
+  }
+
+  #name > h2 {
+    font-size: 2rem;
   }
 }

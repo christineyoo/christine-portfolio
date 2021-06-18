@@ -1,3 +1,7 @@
+#projects {
+  margin-bottom: 1rem;
+}
+
 .projects-flex {
   display: flex;
   flex-direction: column;
@@ -6,7 +10,6 @@
 
 .projects-flex-1 {
   flex: 1;
-  border: 1px solid #333333;
   padding: 1rem;
   background-color: #ffff;
   border-radius: 0 1rem 1rem 0;
@@ -40,12 +43,11 @@ img:hover {
 }
 
 @media all and (min-width: 800px) {
+  #projects {
+    margin-bottom: 5rem;
+  }
   .projects-flex {
     flex-direction: row;
-  }
-
-  .projects-flex-2 {
-    border: 1px solid #333333;
   }
   .project-screenshot {
     object-fit: cover;

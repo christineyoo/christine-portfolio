@@ -7,7 +7,7 @@ import lumina from '../images/lumina.png';
 class Projects extends Component {
   render() {
     return (
-      <>
+      <div id='projects'>
         <h1>Projects</h1>
         <div className='projects-flex'>
           <div className='projects-flex-2'>
@@ -131,7 +131,7 @@ class Projects extends Component {
             </a>
           </div>
         </div>
-      </>
+      </div>
     );
   }
 }

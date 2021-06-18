@@ -3,7 +3,7 @@
 }
 
 main {
-  margin: 10% 20%;
+  margin: 5% 10%;
 }
 
 .App {
@@ -36,4 +36,10 @@ body {
   margin: 0;
   background-size: cover;
   position: relative;
+}
+
+@media all and (min-width: 800px) {
+  main {
+    margin: 10% 20%;
+  }
 }
