@@ -9,8 +9,12 @@ class About extends Component {
         <p>
           I'm a full stack web developer located in Redondo Beach, CA with four
           years of experience teaching high school math. I recently graduated
-          from Thinkful's Software Engineering program where I studied web
-          development using HTML/CSS, React, Node, Express, and PostgreSQL.
+          from{' '}
+          <a href='https://www.thinkful.com/' target='_blank' rel='noreferrer'>
+            Thinkful's Software Engineering program
+          </a>{' '}
+          where I studied web development using HTML/CSS, React, Node, Express,
+          and PostgreSQL.
         </p>
         <p>
           In addition to those skills, my previous work in education gives me an

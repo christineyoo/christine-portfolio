@@ -4,6 +4,16 @@
   border-radius: 1rem;
 }
 
+a {
+  text-decoration: none;
+  color: #935446;
+  font-weight: 900;
+}
+
+a:hover {
+  color: #6e3024;
+}
+
 @media all and (min-width: 800px) {
   #about {
     margin-bottom: 5rem;
