@@ -16,7 +16,6 @@ class Projects extends Component {
               target={'_blank'}
               rel={'noreferrer'}
               className='project-screenshot-link'
-
             >
               <img
                 src={sweetbloom}
@@ -37,15 +36,16 @@ class Projects extends Component {
               ubiquitous in this day and age.
             </p>
             <p>
-              Skills/Tech used: HTML/CSS, Javascript, React, Node, Express,
-              PostgreSQL, Git, Vercel, Heroku, testing with Jest and Mocha/Chai
+              <strong>Skills/Tech used:</strong> HTML/CSS, Javascript, React,
+              Node, Express, PostgreSQL, Git, Vercel, Heroku, testing with Jest
+              and Mocha/Chai
             </p>
             <a
               href={'https://github.com/christineyoo/sweet-bloom'}
               target={'_blank'}
               rel={'noreferrer'}
             >
-              GitHub repository here
+              <strong className='github'>GitHub repository here</strong>
             </a>
           </div>
         </div>
@@ -56,7 +56,6 @@ class Projects extends Component {
               target={'_blank'}
               rel={'noreferrer'}
               className='project-screenshot-link'
-
             >
               <img
                 src={collab}
@@ -79,16 +78,16 @@ class Projects extends Component {
               organized than traditional emails.
             </p>
             <p>
-              Skills/Tech used: HTML/CSS, Javascript, React, Gimp, Node,
-              Express, PostgreSQL, Git, Vercel, Heroku, testing with Jest and
-              Mocha/Chai
+              <strong>Skills/Tech used:</strong> HTML/CSS, Javascript, React,
+              Gimp, Node, Express, PostgreSQL, Git, Vercel, Heroku, testing with
+              Jest and Mocha/Chai
             </p>
             <a
               href={'https://github.com/christineyoo/collab-app'}
               target={'_blank'}
               rel={'noreferrer'}
             >
-              GitHub repository here
+              <strong className='github'>GitHub repository here</strong>
             </a>
           </div>
         </div>
@@ -120,15 +119,15 @@ class Projects extends Component {
               different NASA API endpoints.
             </p>
             <p>
-              Skills/Tech used: HTML/CSS, JavaScript, jQuery, NASA APOD API,
-              NASA Image and Video Library API, Git
+              <strong>Skills/Tech used:</strong> HTML/CSS, JavaScript, jQuery,
+              NASA APOD API, NASA Image and Video Library API, Git
             </p>
             <a
               href={'https://github.com/christineyoo/nasa-app'}
               target={'_blank'}
               rel={'noreferrer'}
             >
-              GitHub repository here
+              <strong className='github'>GitHub repository here</strong>
             </a>
           </div>
         </div>
