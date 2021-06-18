@@ -36,15 +36,26 @@ class Projects extends Component {
               ubiquitous in this day and age.
             </p>
             <p>
-              <strong>Skills/Tech used:</strong> HTML/CSS, Javascript, React,
-              Node, Express, PostgreSQL, Git, Vercel, Heroku, testing with Jest
-              and Mocha/Chai
+              <strong>Skills/Tech used:</strong>
             </p>
+            <ul>
+              <li>HTML/CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node</li>
+              <li>Express</li>
+              <li>PostgreSQL</li>
+              <li>Vercel</li>
+              <li>Heroku</li>
+              <li>Testing with Jest, Mocha and Chai</li>
+              <li>Git</li>
+            </ul>
             <a
               href={'https://github.com/christineyoo/sweet-bloom'}
               target={'_blank'}
               rel={'noreferrer'}
             >
+              <i class='fab fa-github'></i>&nbsp;
               <strong className='github'>GitHub repository here</strong>
             </a>
           </div>
@@ -68,25 +79,34 @@ class Projects extends Component {
           <div className='projects-flex-1'>
             <h2>Collab</h2>
             <p>
-              Collab is a productivity app that helps teachers increase their
-              efficacy by enabling intra- and inter-collaboration amongst course
-              teams. In a general sense, Collab could be used for members of
-              teams within a larger enterprise working towards a common goal.
-              Users are able to read, create, update, and delete a post and also
-              add or delete comments. The inspiration behind this app was to
-              create a means of communication that is more streamlined and
-              organized than traditional emails.
+              Collab is a productivity app that helps members within a team
+              increase their efficacy by enabling intra- and
+              inter-collaboration. Users are able to perform CRUD operations on
+              a post and also add or delete comments. The inspiration behind
+              this app was to create a means of communication that is more
+              streamlined and organized than traditional emails.
             </p>
             <p>
-              <strong>Skills/Tech used:</strong> HTML/CSS, Javascript, React,
-              Gimp, Node, Express, PostgreSQL, Git, Vercel, Heroku, testing with
-              Jest and Mocha/Chai
+              <strong>Skills/Tech used:</strong>
             </p>
+            <ul>
+              <li>HTML/CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node</li>
+              <li>Express</li>
+              <li>PostgreSQL</li>
+              <li>Vercel</li>
+              <li>Heroku</li>
+              <li>Testing with Jest, Mocha and Chai</li>
+              <li>Git</li>
+            </ul>
             <a
               href={'https://github.com/christineyoo/collab-app'}
               target={'_blank'}
               rel={'noreferrer'}
             >
+              <i class='fab fa-github'></i>&nbsp;
               <strong className='github'>GitHub repository here</strong>
             </a>
           </div>
@@ -119,14 +139,22 @@ class Projects extends Component {
               different NASA API endpoints.
             </p>
             <p>
-              <strong>Skills/Tech used:</strong> HTML/CSS, JavaScript, jQuery,
-              NASA APOD API, NASA Image and Video Library API, Git
+              <strong>Skills/Tech used:</strong>
             </p>
+            <ul>
+              <li>HTML/CSS</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>NASA APOD API</li>
+              <li>NASA Image and Video Library API</li>
+              <li>Git</li>
+            </ul>
             <a
               href={'https://github.com/christineyoo/nasa-app'}
               target={'_blank'}
               rel={'noreferrer'}
             >
+              <i class='fab fa-github'></i>&nbsp;
               <strong className='github'>GitHub repository here</strong>
             </a>
           </div>
