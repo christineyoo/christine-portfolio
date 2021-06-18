@@ -4,7 +4,15 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin: 0;
-  padding: 20rem 10rem;
-  background-position: 80% 100%;
+  background-position: 100% 100%;
+}
+
+#name {
+  padding: 20%;
+}
+
+@media all and (min-width:800px) {
+  #landing {
+    background-position: right bottom;
+  }
 }

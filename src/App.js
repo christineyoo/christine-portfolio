@@ -8,7 +8,6 @@ import NavBar from './navbar/NavBar';
 import './App.css';
 
 class App extends Component {
-  state = {};
   render() {
     return (
       <>
