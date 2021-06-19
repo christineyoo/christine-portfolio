@@ -1,3 +1,13 @@
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+nav {
+  padding: 0.5rem;
+  background-color: #e0eafc;
+}
+
 .nav-flex {
   display: flex;
   flex-direction: column;
@@ -6,16 +16,6 @@
 .nav-flex-1 {
   flex: 1;
   text-align: center;
-}
-
-nav {
-  padding: 0.5rem;
-  background-color: #e0eafc;
-}
-
-a {
-  text-decoration: none;
-  color: #333333;
 }
 
 @media all and (min-width: 800px) {

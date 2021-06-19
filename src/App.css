@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-main {
-  margin: 5% 10%;
-}
-
 .App {
   text-align: center;
 }
@@ -24,6 +20,9 @@ body {
   position: relative;
 }
 
+main {
+  margin: 5% 10%;
+}
 @media all and (min-width: 800px) {
   main {
     margin: 10% 20%;
