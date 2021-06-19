@@ -21,24 +21,30 @@ export default function Contact() {
               target='_blank'
               rel='noreferrer'
             >
-              <button className='button-flex-1'>Resume</button>
+              <button className='button-flex-1'>
+                <i class='fas fa-file'></i>&nbsp;Resume
+              </button>
             </a>
             <a
               href='https://www.linkedin.com/in/christine-yoo-cy/'
               target='_blank'
               rel='noreferrer'
             >
-              <button className='button-flex-1'>LinkedIn</button>
+              <button className='button-flex-1'>
+                <i className='fab fa-linkedin-in'></i>&nbsp;LinkedIn
+              </button>
             </a>
             <a
               href='https://github.com/christineyoo'
               target='_blank'
               rel='noreferrer'
             >
-              <button className='button-flex-1'>GitHub</button>
+              <button className='button-flex-1'>
+                <i className='fab fa-github'></i>&nbsp;GitHub
+              </button>
             </a>
           </div>
-          <h1>Thanks, your message was sent!</h1>
+          <h3>Thanks, your message was sent.</h3>
         </div>
         <button
           id='scroll-to-top'
@@ -69,21 +75,27 @@ export default function Contact() {
             target='_blank'
             rel='noreferrer'
           >
-            <button className='button-flex-1'>Resume</button>
+            <button className='button-flex-1'>
+              <i class='fas fa-file'></i>&nbsp;Resume
+            </button>
           </a>
           <a
             href='https://www.linkedin.com/in/christine-yoo-cy/'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='button-flex-1'>LinkedIn</button>
+            <button className='button-flex-1'>
+              <i className='fab fa-linkedin-in'></i>&nbsp;LinkedIn
+            </button>
           </a>
           <a
             href='https://github.com/christineyoo'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='button-flex-1'>GitHub</button>
+            <button className='button-flex-1'>
+              <i className='fab fa-github'></i>&nbsp;GitHub
+            </button>
           </a>
         </div>
 

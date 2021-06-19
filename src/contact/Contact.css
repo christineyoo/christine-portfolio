@@ -6,6 +6,12 @@
   font-size: 3rem;
 }
 
+#contact h3 {
+  margin-top: 2rem;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
 #contact {
   background: rgb(250, 249, 248);
   padding: 1rem;
