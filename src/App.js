@@ -5,8 +5,8 @@ import Footer from './footer/Footer';
 import Landing from './landing/Landing';
 import Projects from './projects/Projects';
 import Map from './map/Map';
-
 import './App.css';
+//vercel --prod
 
 class App extends Component {
   render() {
