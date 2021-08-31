@@ -1,8 +1,8 @@
 #about {
-  background: rgb(250, 249, 248);
-  padding: 1rem;
-  border-radius: 1rem;
-  box-shadow: 5px 10px 8px #888888;
+  box-shadow: -10px 0px 50px #888888;
+  position: relative;
+  z-index: 2;
+  text-align: center;
 }
 
 a {
@@ -15,10 +15,52 @@ a:hover {
   color: #6e3024;
 }
 
+.about-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-flex-1 {
+  padding: 2rem;
+  flex: 1;
+  text-align: center;
+  background-color: #f4ece6;
+}
+
+.about-flex-2 {
+  padding: 2rem;
+  flex: 2;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+#about-h1 {
+  font-size: 5rem;
+}
+
+#background {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 40%;
+  height: 100%;
+  background-color: #e6dace;
+  z-index: 1;
+}
+
+hr {
+  margin: 0 7rem;
+  height: 3px;
+  background-color: #0050ff;
+ }
+
+ #position {
+   letter-spacing: 2px;
+ }
+
 @media all and (min-width: 800px) {
   #about {
     margin-bottom: 5rem;
-    padding: 3rem;
   }
 
   #about > p {

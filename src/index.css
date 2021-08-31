@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-body {
+/* body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
   background: url(./images/seashell.jpg) no-repeat center center fixed;
@@ -9,7 +9,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-position: 100% 100%;
-}
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

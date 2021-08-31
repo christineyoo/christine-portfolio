@@ -1,7 +1,11 @@
 footer {
-  padding: 2rem;
+  position: fixed;
   text-align: center;
-  background-color: #faf6f0;
+  padding: 2rem;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid red;
+  z-index: 10;
 }
 
 footer p {

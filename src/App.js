@@ -5,6 +5,7 @@ import Footer from './footer/Footer';
 import Landing from './landing/Landing';
 import Projects from './projects/Projects';
 import Map from './map/Map';
+import NavBar from './navbar/NavBar'
 import './App.css';
 //vercel --prod
 
@@ -13,13 +14,14 @@ class App extends Component {
     return (
       <>
         <header>
-          <Landing />
+          <NavBar />
+          {/* <Landing /> */}
         </header>
         <main>
           <About />
-          <Projects />
-          <Contact />
-          <Map />
+          {/* <Projects /> */}
+          {/* <Contact /> */}
+          {/* <Map /> */}
         </main>
         <Footer />
       </>
