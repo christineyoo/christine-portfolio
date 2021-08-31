@@ -10,6 +10,8 @@ img:hover {
 
 #projects {
   margin-bottom: 1rem;
+  position: relative;
+  z-index: 2;
 }
 
 .heading-flex {
@@ -19,6 +21,13 @@ img:hover {
 
 .heading-flex-child {
   flex: 1;
+  margin: 1rem auto;
+}
+
+.heading-flex-child-right {
+  flex: 1;
+  margin: 1rem auto;
+  text-align: right;
 }
 
 .projects-flex {
@@ -50,17 +59,23 @@ img:hover {
   height: 250px;
 }
 
+.bg {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #e6dace;
+  z-index: 1;
+}
+
 @media all and (min-width: 800px) {
   #projects {
     margin-bottom: 5rem;
   }
+
   .projects-flex {
     flex-direction: row;
-    /* border-radius: 0 1rem 1rem 0; */
-  }
-
-  .projects-flex-1 {
-    /* border-radius: 0 1rem 1rem 0; */
   }
 
   .project-screenshot {

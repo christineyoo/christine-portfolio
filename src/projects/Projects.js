@@ -7,12 +7,21 @@ import lumina from '../images/lumina.png';
 class Projects extends Component {
   render() {
     return (
+      <>
       <div id='projects'>
         <div className='heading-flex'>
             <div className='square'></div>
             &nbsp;
             &nbsp;
             <h1 className='heading-flex-child'>Projects</h1>
+            <a
+              href='https://drive.google.com/file/d/1zGLU8YfqqN6hUm6Pj0JFyEwRRX4R-s8k/view?usp=sharing'
+              target='_blank'
+              rel='noreferrer'
+              className='heading-flex-child-right'
+            >
+              <button className='blue-button'>RESUME</button>
+            </a>
         </div>
 
         <div className='projects-flex'>
@@ -166,6 +175,8 @@ class Projects extends Component {
           </div>
         </div>
       </div>
+      <div className='bg'></div>
+      </>
     );
   }
 }
