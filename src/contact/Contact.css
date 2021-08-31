@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap');
 
-button {
+/* button {
   border: 1px solid #000;
   border-radius: 1rem;
   font-size: 1rem;
@@ -11,7 +11,7 @@ button {
   cursor: pointer;
   margin-right: 1rem;
   width: 100px;
-}
+} */
 
 .button-flex-1 {
   flex: 1;
