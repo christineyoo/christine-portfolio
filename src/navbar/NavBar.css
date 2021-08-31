@@ -22,6 +22,7 @@ nav {
   flex: 1;
   text-align: right;
   margin: auto;
+  font-family: 'Poppins', sans-serif;
 }
 
 .nav-flex-7 {

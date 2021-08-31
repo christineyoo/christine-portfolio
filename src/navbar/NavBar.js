@@ -24,15 +24,6 @@ class NavBar extends Component {
           </NavLink>
         </div>
         <div className='nav-flex-1'>
-          <NavLink to={'/resume'}
-          activeStyle={{
-            color: '#0050ff'
-          }}>
-
-            RESUME
-          </NavLink>
-        </div>
-        <div className='nav-flex-1'>
           <NavLink to={'/projects'}
           activeStyle={{
             color: '#0050ff'

@@ -8,7 +8,13 @@ class Projects extends Component {
   render() {
     return (
       <div id='projects'>
-        <h1>projects</h1>
+        <div className='heading-flex'>
+            <div className='square'></div>
+            &nbsp;
+            &nbsp;
+            <h1 className='heading-flex-child'>Projects</h1>
+        </div>
+
         <div className='projects-flex'>
           <div className='projects-flex-2'>
             <a
@@ -56,7 +62,7 @@ class Projects extends Component {
               rel={'noreferrer'}
             >
               <i class='fab fa-github'></i>&nbsp;
-              <strong className='github'>GitHub repository here</strong>
+              <strong>GitHub repository here</strong>
             </a>
           </div>
         </div>
@@ -107,7 +113,7 @@ class Projects extends Component {
               rel={'noreferrer'}
             >
               <i class='fab fa-github'></i>&nbsp;
-              <strong className='github'>GitHub repository here</strong>
+              <strong>GitHub repository here</strong>
             </a>
           </div>
         </div>
@@ -155,7 +161,7 @@ class Projects extends Component {
               rel={'noreferrer'}
             >
               <i class='fab fa-github'></i>&nbsp;
-              <strong className='github'>GitHub repository here</strong>
+              <strong>GitHub repository here</strong>
             </a>
           </div>
         </div>

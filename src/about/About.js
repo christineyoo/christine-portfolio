@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './About.css';
 import christine from '../images/christine.jpg';
 
@@ -20,8 +21,7 @@ class About extends Component {
               >
                 <i className='fab fa-linkedin-in'></i>
               </a>
-              &nbsp;
-              &nbsp;
+              &nbsp; &nbsp;
               <a
                 href='https://github.com/christineyoo'
                 target='_blank'
@@ -34,8 +34,16 @@ class About extends Component {
           <div className='about-flex-2'>
             <h1 id='about-h1'>Hello</h1>
             <h2>Here's who I am &amp; what I do</h2>
-            <button className='blue-button'>RESUME</button>
-            <button className='clear-button'>PROJECTS</button>
+            <a
+              href='https://drive.google.com/file/d/1zGLU8YfqqN6hUm6Pj0JFyEwRRX4R-s8k/view?usp=sharing'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='blue-button'>RESUME</button>
+            </a>
+            <Link to={'/projects'}>
+              <button className='clear-button'>PROJECTS</button>
+            </Link>
             <p>
               I'm a full stack web developer with four years of experience
               teaching high school math. I graduated from{' '}
