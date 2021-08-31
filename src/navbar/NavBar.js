@@ -16,7 +16,7 @@ class NavBar extends Component {
         </div>
         <div className='nav-flex-7'></div>
         <div className='nav-flex-1'>
-          <NavLink to={'/'}
+          <NavLink exact to={'/'}
           activeStyle={{
             color: '#0050ff'
           }}>
