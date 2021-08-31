@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
 import About from './about/About';
 import Contact from './contact/Contact';
 import Footer from './footer/Footer';
@@ -15,13 +16,14 @@ class App extends Component {
       <>
         <header>
           <NavBar />
-          {/* <Landing /> */}
         </header>
         <main>
-          <About />
-          {/* <Projects /> */}
-          {/* <Contact /> */}
-          {/* <Map /> */}
+          <Switch>
+            {/* <Route exact path='/resume' component={Resume} /> */}
+            <Route exact path='/projects' component={Projects} />
+            <Route exact path='/contact' component={Contact} />
+            <Route exact path='/' component={About} />
+          </Switch>
         </main>
         <Footer />
       </>
