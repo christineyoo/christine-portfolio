@@ -24,6 +24,7 @@ a:hover {
   text-align: center;
   background-color: #f4ece6;
   box-shadow: -10px 10px 50px #888888;
+  position: relative;
 }
 
 .about-flex-2 {
@@ -61,8 +62,9 @@ hr {
   padding: 0.75rem;
   background-color: #ffffff;
   position: absolute;
+  margin-bottom: 0;
   bottom: 0;
-  width: 42%;
+  width: 100%;
 }
 
 .blue-button {
@@ -106,6 +108,10 @@ hr {
 }
 
 @media all and (max-width: 600px) {
+  .about-flex {
+    flex-direction: column;
+  }
+
   #about {
     margin-bottom: 5rem;
   }
@@ -113,4 +119,31 @@ hr {
   #about > p {
     font-size: 1.25rem;
   }
+
+  #profile {
+    height: 150px;
+    border-radius: 50%;
+    margin: 3rem 3rem 1rem 3rem;
+  }
+
+  hr {
+    margin: 0 3rem;
+  }
+
+  #about-h1 {
+    font-size: 3rem;
+  }
+
+  .blue-button, .clear-button {
+    margin-bottom: 1rem;
+  }
+
+  .about-flex-1 {
+    box-shadow: 10px 10px 50px #888888;
+  }
+
+  #social {
+    position: relative;
+  }
+
 }

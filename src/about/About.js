@@ -30,7 +30,7 @@ class About extends Component {
                 <i className='fab fa-github'></i>
               </a>
               &nbsp; &nbsp;
-              <a href='mailto:tstudent205@gmail.com'>
+              <a href='mailto:christinecho.s@gmail.com'>
                 <i class='far fa-envelope'></i>
               </a>
             </div>

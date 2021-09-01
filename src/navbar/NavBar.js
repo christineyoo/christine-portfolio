@@ -12,7 +12,7 @@ class NavBar extends Component {
         <div className='nav-flex'>
           <h1 className='nav-flex-1 nav-flex-1-left'>Christine Yoo</h1>
           &nbsp;
-          <p className='nav-flex-1-left'> FULL STACK DEVELOPER</p>
+          <p className='nav-flex-1-left'> / FULL STACK DEVELOPER /</p>
         </div>
         <div className='nav-flex-7'></div>
         <div className='nav-flex-1'>

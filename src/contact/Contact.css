@@ -69,16 +69,9 @@ form textarea {
   cursor: pointer;
 }
 
-@media all and (min-width: 800px) {
-  #contact {
-    padding: 3rem;
-  }
-
-  .contact-buttons {
-    flex-direction: row;
-  }
-
-  form input {
-    width: 40%;
+@media all and (max-width: 600px) {
+  form {
+    padding: 2rem;
+    margin-bottom: 4rem;
   }
 }
