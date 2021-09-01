@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-  color: #0050ff;
+  color: #2541b2;
 }
 
 .about-flex {
@@ -51,7 +51,7 @@ a:hover {
 hr {
   margin: 0 8rem;
   height: 3px;
-  background-color: #0050ff;
+  background-color: #2541b2;
 }
 
 #position {
@@ -68,10 +68,10 @@ hr {
 }
 
 .blue-button {
-  border: 1.5px solid #0050ff;
+  border: 1.5px solid #2541b2;
   border-radius: 1rem;
   padding: 0.4rem 1.25rem;
-  background: #0050ff;
+  background: #2541b2;
   margin-right: 0.5rem;
   color: #ffffff;
   font-weight: 600;
@@ -96,8 +96,8 @@ hr {
 }
 
 .clear-button:hover {
-  background-color: #0050ff;
-  border: 1.5px solid #0050ff;
+  background-color: #2541b2;
+  border: 1.5px solid #2541b2;
   cursor: pointer;
   color: #ffffff;
 }

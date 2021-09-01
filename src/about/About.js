@@ -49,8 +49,7 @@ class About extends Component {
               <button className='clear-button'>PROJECTS</button>
             </Link>
             <p>
-              I'm a full stack web developer with four years of experience
-              teaching high school math. I graduated from{' '}
+              I'm a full stack web developer passionate about leveraging a collaborative approach to create a seamless user experience from front to back. I graduated from{' '}
               <a
                 href='https://www.thinkful.com/'
                 target='_blank'
@@ -58,18 +57,10 @@ class About extends Component {
               >
                 Thinkful's Software Engineering program
               </a>{' '}
-              where I studied web development using JavaScript, HTML/CSS, React,
-              Node, Express, SQL, and PostgreSQL. I am currently extending my
-              education by learning more about data structures and algorithms.
+              where I studied full stack web development using frontend libraries (React, jQuery) in JavaScript, backend frameworks (Node.js, Express), database management systems (PostgreSQL) and unit testing frameworks (Mocha, Jest) to create complex, reliable full stack web applications. It is undeniable how integral web and mobile applications are in the fabric of our society, and I believe that there is still much to develop and tap into. That's what excites me to work in this field.
             </p>
             <p>
-              In addition to those skills, my previous work in education gives
-              me an extra edge when it comes to developing solutions within a
-              team since I learned the importance of setting a game plan before
-              execution, adjusting quickly based on new developments, and
-              streamlining communication amongst stakeholders. When I'm not in
-              front of my computer, I like to explore California's beautiful
-              coast with my husband and energetic Schnoodle, Fluffy.
+              I have a strong background in mathematics and education, bringing in four years of cumulative professional experience. I have a passion for problem-solving and working with teammates who share that same enthusiasm.
             </p>
           </div>
         </div>

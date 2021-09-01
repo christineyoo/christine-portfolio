@@ -18,7 +18,7 @@ class NavBar extends Component {
         <div className='nav-flex-1'>
           <NavLink exact to={'/'}
           activeStyle={{
-            color: '#0050ff'
+            color: '#2541b2'
           }}>
             ABOUT
           </NavLink>
@@ -26,7 +26,7 @@ class NavBar extends Component {
         <div className='nav-flex-1'>
           <NavLink to={'/projects'}
           activeStyle={{
-            color: '#0050ff'
+            color: '#2541b2'
           }}>
             PROJECTS
           </NavLink>
@@ -34,7 +34,7 @@ class NavBar extends Component {
         <div className='nav-flex-1'>
           <NavLink to={'/contact'}
           activeStyle={{
-            color: '#0050ff'
+            color: '#2541b2'
           }}>
             CONTACT
           </NavLink>
