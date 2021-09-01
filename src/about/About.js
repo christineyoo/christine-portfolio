@@ -30,13 +30,9 @@ class About extends Component {
                 <i className='fab fa-github'></i>
               </a>
               &nbsp; &nbsp;
-              <a
-              href='https://drive.google.com/file/d/1zGLU8YfqqN6hUm6Pj0JFyEwRRX4R-s8k/view?usp=sharing'
-              target='_blank'
-              rel='noreferrer'
-              >
-                <i class='fas fa-file'></i>
-            </a>
+              <a href='mailto:tstudent205@gmail.com'>
+                <i class='far fa-envelope'></i>
+              </a>
             </div>
           </div>
           <div className='about-flex-2'>

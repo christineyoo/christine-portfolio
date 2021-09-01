@@ -5,14 +5,17 @@
 
 footer {
   position:absolute;
-   bottom:0;
-   width:100%;
-   height: 50px;
-   background:#ffffff;
-   z-index: 20;
-   /* bottom: 0; */
+  bottom:0;
+  width: 100%;
+  height: 50px;
+  background:#ffffff;
+  z-index: 3;
 }
 
 footer p {
   font-size: 1rem;
+  padding: 2rem;
+  background: #ffffff;
+  text-align: center;
+  font-size: 12px;
 }
