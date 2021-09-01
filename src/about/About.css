@@ -105,7 +105,7 @@ hr {
   margin: 3rem 3rem 1rem 3rem;
 }
 
-@media all and (min-width: 800px) {
+@media all and (max-width: 600px) {
   #about {
     margin-bottom: 5rem;
   }
