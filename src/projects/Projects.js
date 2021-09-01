@@ -25,7 +25,6 @@ class Projects extends Component {
         </div>
 
         <div className='projects-flex'>
-          {/* <div className='projects-flex-2'> */}
             <a
               href={'https://sweet-bloom.vercel.app/'}
               target={'_blank'}
@@ -38,7 +37,6 @@ class Projects extends Component {
                 className='project-screenshot'
               />
             </a>
-          {/* </div> */}
           <div className='projects-flex-1'>
             <h2>Sweet Bloom</h2>
             <p>
@@ -79,7 +77,6 @@ class Projects extends Component {
             >
               <img
                 src={collab}
-                height='600px'
                 alt='collab'
                 className='project-screenshot'
               />
@@ -127,7 +124,6 @@ class Projects extends Component {
             >
               <img
                 src={lumina}
-                height='600px'
                 alt='lumina'
                 className='project-screenshot'
               />

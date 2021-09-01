@@ -20,7 +20,7 @@ class NavBar extends Component {
           activeStyle={{
             color: '#0050ff'
           }}>
-            ABOUT ME
+            ABOUT
           </NavLink>
         </div>
         <div className='nav-flex-1'>

@@ -1,47 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap');
-
-/* button {
-  border: 1px solid #000;
-  border-radius: 1rem;
-  font-size: 1rem;
-  padding: 1rem;
-  background-color: transparent;
-  font-family: 'Raleway', sans-serif;
-  cursor: pointer;
-  margin-right: 1rem;
-  width: 100px;
-} */
-
-.button-flex-1 {
-  flex: 1;
-  margin: 0.5rem;
+form {
+  background: #ffffff;
+  padding: 4rem;
+  margin-bottom: 10%;
+  box-shadow: -10px 10px 50px #888888;
+  font-family: 'Quicksand', sans-serif;
 }
 
-button:hover {
-  background-color: rgba(227, 202, 184, 0.5);
-  cursor: pointer;
-}
-
-.contact-buttons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1rem;
+input[type=text], input[type=email] {
+  border: none;
+  border-bottom: 2px solid #333333;
+  outline: none;
 }
 
 #contact {
-  background: rgb(250, 249, 248);
-  padding: 1rem;
-  border-radius: 1rem;
-  margin-bottom: 10%;
-  box-shadow: 5px 10px 8px #888888;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 2;
 }
 
 #contact h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
 }
 
 #contact h2 {
@@ -55,19 +34,11 @@ button:hover {
   text-align: center;
 }
 
-form button {
-  border: 1px solid #000;
-  border-radius: 1rem;
-  font-size: 1rem;
-  padding: 1rem;
-  background-color: transparent;
-}
-
 form input {
   margin-bottom: 20px;
   width: 80%;
   padding: 1rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1rem;
 }
 
@@ -81,7 +52,7 @@ form textarea {
   margin-bottom: 20px;
   width: 100%;
   height: 10rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   padding: 1rem;
   font-size: 1rem;
 }
@@ -100,9 +71,7 @@ form textarea {
 
 @media all and (min-width: 800px) {
   #contact {
-    background: rgb(250, 249, 248);
     padding: 3rem;
-    border-radius: 1rem;
   }
 
   .contact-buttons {
