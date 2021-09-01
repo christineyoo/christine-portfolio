@@ -25,7 +25,7 @@ class Projects extends Component {
         </div>
 
         <div className='projects-flex'>
-          <div className='projects-flex-2'>
+          {/* <div className='projects-flex-2'> */}
             <a
               href={'https://sweet-bloom.vercel.app/'}
               target={'_blank'}
@@ -34,24 +34,18 @@ class Projects extends Component {
             >
               <img
                 src={sweetbloom}
-                height='600px'
                 alt='sweetbloom'
                 className='project-screenshot'
               />
             </a>
-          </div>
+          {/* </div> */}
           <div className='projects-flex-1'>
             <h2>Sweet Bloom</h2>
             <p>
               Sweet Bloom is an e-commerce (business-to-consumer) application
               that enables users to view products and read, create, update and
               delete a review for any product. This app is for anyone who wants
-              to shop for flowers and desserts online. I built this app to
-              understand what goes behind building an e-commerce app, which is
-              ubiquitous in this day and age.
-            </p>
-            <p>
-              <strong>Skills/Tech used:</strong>
+              to shop for flowers and desserts online. The motivation behind this project was to understand the system design for an eCommerce application. The languages and technologies used to build Sweet Bloom include:
             </p>
             <ul>
               <li>HTML/CSS</li>
@@ -59,7 +53,7 @@ class Projects extends Component {
               <li>React</li>
               <li>Node</li>
               <li>Express</li>
-              <li>PostgreSQL</li>
+              <li>SQL/PostgreSQL</li>
               <li>Vercel</li>
               <li>Heroku</li>
               <li>Testing with Jest, Mocha and Chai</li>
@@ -76,7 +70,7 @@ class Projects extends Component {
           </div>
         </div>
         <div className='projects-flex'>
-          <div className='projects-flex-2'>
+          {/* <div className='projects-flex-2'> */}
             <a
               href={'https://collab-app-smoky.vercel.app/'}
               target={'_blank'}
@@ -90,7 +84,7 @@ class Projects extends Component {
                 className='project-screenshot'
               />
             </a>
-          </div>
+          {/* </div> */}
           <div className='projects-flex-1'>
             <h2>Collab</h2>
             <p>
@@ -99,10 +93,7 @@ class Projects extends Component {
               inter-collaboration. Users are able to perform CRUD operations on
               a post and also add or delete comments. The inspiration behind
               this app was to create a means of communication that is more
-              streamlined and organized than traditional emails.
-            </p>
-            <p>
-              <strong>Skills/Tech used:</strong>
+              streamlined and organized than traditional emails. The languages and technologies used to build Collab include:
             </p>
             <ul>
               <li>HTML/CSS</li>
@@ -110,7 +101,7 @@ class Projects extends Component {
               <li>React</li>
               <li>Node</li>
               <li>Express</li>
-              <li>PostgreSQL</li>
+              <li>SQL/PostgreSQL</li>
               <li>Vercel</li>
               <li>Heroku</li>
               <li>Testing with Jest, Mocha and Chai</li>
@@ -127,7 +118,7 @@ class Projects extends Component {
           </div>
         </div>
         <div className='projects-flex'>
-          <div className='projects-flex-2'>
+          {/* <div className='projects-flex-2'> */}
             <a
               href={'https://christineyoo.github.io/nasa-app/'}
               target={'_blank'}
@@ -141,7 +132,7 @@ class Projects extends Component {
                 className='project-screenshot'
               />
             </a>
-          </div>
+          {/* </div> */}
           <div className='projects-flex-1'>
             <h2>LUMINA</h2>
             <p>
@@ -151,10 +142,7 @@ class Projects extends Component {
               of interest and scroll through all that there is to learn about
               our fascinating universe! The purpose of this project was to
               practice implementing asynchronous code by fetching data from two
-              different NASA API endpoints.
-            </p>
-            <p>
-              <strong>Skills/Tech used:</strong>
+              different NASA API endpoints. The languages and technologies used to build LUMINA include:
             </p>
             <ul>
               <li>HTML/CSS</li>
