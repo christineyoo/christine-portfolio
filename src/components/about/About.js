@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './About.css';
-import christine from '../images/christine.jpg';
+import christine from '../../images/christine.jpg';
 
 class About extends Component {
   render() {

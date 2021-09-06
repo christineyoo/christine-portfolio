@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './Projects.css';
-import sweetbloom from '../images/sweetbloom.png';
-import collab from '../images/collab.png';
-import lumina from '../images/lumina.png';
+import sweetbloom from '../../images/sweetbloom.png';
+import collab from '../../images/collab.png';
+import lumina from '../../images/lumina.png';
 
 class Projects extends Component {
   render() {

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import About from './about/About';
-import Contact from './contact/Contact';
-import Footer from './footer/Footer';
-import Projects from './projects/Projects';
-import NavBar from './navbar/NavBar'
+import About from './components/about/About';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
+import Projects from './components/projects/Projects';
+import NavBar from './components/navbar/NavBar'
 import './App.css';
 //vercel --prod
 
@@ -16,11 +16,11 @@ class App extends Component {
           <NavBar />
         </header>
         <main>
-          <Switch>
-            <Route exact path='/projects' component={Projects} />
-            <Route exact path='/contact' component={Contact} />
-            <Route exact path='/' component={About} />
-          </Switch>
+            <Switch>
+              <Route exact path='/projects' component={Projects} />
+              <Route exact path='/contact' component={Contact} />
+              <Route exact path='/' component={About} />
+            </Switch>
         </main>
         <Footer />
       </>
