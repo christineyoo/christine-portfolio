@@ -15,7 +15,7 @@ class Projects extends Component {
             &nbsp;
             <h1 className='heading-flex-child'>Projects</h1>
             <a
-              href='https://drive.google.com/file/d/1zGLU8YfqqN6hUm6Pj0JFyEwRRX4R-s8k/view?usp=sharing'
+              href='https://drive.google.com/file/d/1O9L5XbYPKsNoIReMLTbkDis85uFaFVfH/view?usp=sharing'
               target='_blank'
               rel='noreferrer'
               className='heading-flex-child-right'
